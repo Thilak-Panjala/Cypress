@@ -1,0 +1,21 @@
+{
+    "menu": ":nth-child(5) > .subtabs__tab-link",
+    "vendorTab": ":nth-child(2) > .input-suggestions__suggestion-content > .input-suggestions__suggestion-content-text > .submenu-link__dropdown-item",
+    "materialTab":".page-layout__tabs > .subtabs > :nth-child(2) > .subtabs__tab-link",
+    "newMaterial":".samples > a > .btn",
+    "addButton":".validated-input__input > .btn",
+    "selectCompound":".amino-table__body > :nth-child(1) > :nth-child(1)",
+    "continue":".next-container > span",
+    "selectResource":".amino-table__body > :nth-child(1) > :nth-child(1)",
+    "selectButton":"span > .btn",
+    "selectVendor":".validated-input__input > .select > .select-input__container > .select-input__wrapper",
+    "firstVendor":":nth-child(1) > .input-suggestions__suggestion-content > .input-suggestions__suggestion-content-text",
+    "addCostItem":".add-new-inplace > .btn > .btn__content",
+    "amount":":nth-child(1) > .validated-input > .validated-input__input > .labeled-input > .text-input",
+    "unitsSelector":".validated-input__input > .labeled-input > .select > .select-input__container > .select-input__wrapper",
+    "mgUnit":":nth-child(2) > .input-suggestions__suggestion-content > .input-suggestions__suggestion-content-text",
+    "cost":":nth-child(3) > .validated-input > .validated-input__input > .labeled-input > .text-input",
+    "checked":".icon > .fa-check",
+    "createMaterial":".button-group > .btn-tall",
+    "createdMaterial":":nth-child(1) > :nth-child(2) > .amino-table__cell-content > .tooltip-wrapper > p"
+}

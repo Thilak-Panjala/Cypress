@@ -1,0 +1,4 @@
+smiles,name,reference_id,labels
+C,example-1,1,
+CC,example-2,2,label-1
+CCC,example-3,3,"label-1,label-2"

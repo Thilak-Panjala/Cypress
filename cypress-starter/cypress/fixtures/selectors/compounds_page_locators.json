@@ -1,0 +1,16 @@
+{
+    "compoundsTab": ".user-nav-bar__content-left > .subtabs > :nth-child(4) > .subtabs__tab-link",
+    "registerCompoundsButton": ".fa-plus",
+    "drawOption": ":nth-child(1) > .btn > .btn__content > .compound-dropdown__button",
+    "publicCompoundToggle": ".toggle__label--on",
+    "browseFilesOption": ".tx-type--accent",
+    "smilesInput": ".validated-input__input > .text-input",
+    "nextButton": ".next-container > span > .btn",
+    "nickName": ":nth-child(1) > .labeled-input > .text-input",
+    "createCompound": ".next-container > span > .btn",
+    "compoundName": "h3.tx-type--heavy",
+    "bannerTitle":".banner__title",
+    "systemUpload": "input[type='file']",
+    "csvFileName" : "compounds.csv",
+    "csvFilePath" : "cypress/fixtures/compounds.csv"
+}
