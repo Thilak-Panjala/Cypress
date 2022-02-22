@@ -2,20 +2,6 @@ import { BasePage } from '../BasePage';
 
 
 export default class MaterialPage extends BasePage {
-   
-    visitStrateos(){
-        cy.viewport(1920,1080)
-        this.accessUrl('http://localhost:5555/');
-    }
-
-    login() {
-      cy.get('#emailInput').type('ben.miles@strateos.com')
-        .should('have.value','ben.miles@strateos.com') 
-      cy.get('#passwordInput').type('Testing123!')
-      cy.get('#submitButton').click();
-      return this;
-    }
-
     openMenu(dom: string) {
         this.clickOnDomElement(dom);
     }
